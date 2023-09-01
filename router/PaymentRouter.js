@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import { PaymentShop, stripeAPIKey } from "../controllers/payments.js";
+import { PaymentShop, stripeAPIKey } from "../controllers/Payments.js";
 
 
 router.post('/payment/process',PaymentShop)
